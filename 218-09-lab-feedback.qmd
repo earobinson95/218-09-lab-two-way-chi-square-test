@@ -1,0 +1,82 @@
+---
+title: "Lab 7 Feedback"
+format:
+  html:
+    embed-resources: true
+---
+
+# COMPLETION
+
+Answers to everything: 5 points
+
+Don't have answers to 1-2 questions: 4.5 
+
+Don't have answers to 3-4 questions: 4
+
+
+## Question 4 (Filled Barplot)
+
+**If they filled by Vaccine instead of Malaria**
+
+We want to place our explanatory variable on the x-axis and fill by the response variable.
+
+**If their y-axis label says counts instead of proportions**
+
+With a filled bar plot, we are comparing proportions within each explanatory variable group, not counts.
+
+## Question 5 (Filled Barplot vs Stacked/Dodged Barplot)
+
+**If they say so you can see the relationship**
+
+Since we randomly assigned vaccine levels to children, we are conducting a test of homogeneity -- therefore we want to visualize and summarize by looking at the proportions.
+
+## Question 11 (Independence)
+
+**If they say their variables (vaccines and malaria) are independent**
+
+Careful! We are looking for independence between our observations, not our variables. Does knowing one' child's malaria status tell us exact information about another child's malaria status?
+
+## Question 18 (Conclusion - Theory)
+
+Check to make sure they have all parts.
+
+### Chi-square test statistic and associated degrees of freedom ($X^2$ = 76.8 with 2 degrees of freedom -- (2 - 1)(3 - 1))
+
+Make sure you are specifying your observed test statistic and associated degrees of freedom for the chi-square distribution!
+
+Recall the degrees of freedom are calculated by (number of rows - 1) x (number of columns - 1). Where else can we find this value in the R output?
+
+### p-value (<0.00001).
+
+What p-value did you obtain from your chi-square test? Indicate this along with your test statistic any time you are writing out your results.
+
+**If they say 2.12e-17**
+
+This means it is a really small value! 2 x 10^-17 in scientific notation. We state either < 0.0001, less than 1/1000, or approximately 0.
+
+### $\alpha$ threshold
+
+What significance level (alpha) are you comparing your p-value to?
+
+### your decision about the null hypothesis (reject the null hypothesis)
+
+What decision do you make about the null hypothesis? How do you know?
+
+### your conclusion in context of the data (restate alternative - We have sufficient evidence to conclude at least one vaccine group has a different true proportion of developing Malaria.)
+
+**If they restate the null**
+
+When writing our conclusion, we want to make our claims about the alternative hypothesis, not the null hypothesis.
+
+### the scope of inference (Random assignment implies causation. We do not know if it is a random sample.)
+
+Can we generalize to the population? Determine causation? What is your scope of inference?
+
+## Question 23 (Conclusion - Simulated)
+
+**Check to see they stated it is the same conclusion they got before in #18.**
+
+
+
+
+

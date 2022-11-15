@@ -1,0 +1,6 @@
+*.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*key*
+218-09-lab-two-way-chi-square-test.Rproj
